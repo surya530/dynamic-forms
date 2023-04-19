@@ -1,0 +1,14 @@
+let handler = require("express-async-handler");
+let Forms = require("../models/createFormModel")
+
+let getForms = handler(async (req,res)=>{
+    let forms = await Forms.find({});
+    if(forms == null){
+        res.status(402)
+        throw new Error('forms does not exist');
+    }
+    res.status(200).json(forms);
+});
+
+
+module.exports = {getForms};

@@ -1,0 +1,13 @@
+let express = require("express");
+let app = express();
+let cors =  require("cors");
+let connect = require("./dbConnection/db");
+let errorHandler = require("./errorHandlers/errHandler");
+app.use(express.json());
+// app.use(express.urlencoded({ extended : false }));
+app.use(express.urlencoded({extended : true}));
+app.use(cors({origin : true}));
+connect();
+app.use('/' , require('./routes/createFormRoute'));
+app.use(errorHandler);
+app.listen(4000 , ()=>{console.log('running on port 4000')});

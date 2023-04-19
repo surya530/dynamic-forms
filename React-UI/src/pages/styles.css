@@ -1,0 +1,22 @@
+
+.selectBox{
+    width: 20rem;
+}
+
+.AddFieldButtonInFieldScreen{
+    margin-left: 85%;
+    margin-top: 2%;
+}
+
+.contextFormButton {
+    background-color: #2065D1;
+    color: white;
+    border-radius: 5px;
+    border-color: #2065D1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    margin-left:40%;
+}
+
+
