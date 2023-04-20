@@ -2,7 +2,8 @@ let mongoose = require("mongoose");
 
 let connect = () =>{
     try{
-        let db = mongoose.connect("mongodb+srv://surya:sun30moon@cluster0.azehtmk.mongodb.net/?retryWrites=true&w=majority");
+	// add your local Mongodb or Mongodb Atlas
+        let db = mongoose.connect("");
         console.log('connected succesfully');
     }catch{
         console.log('error');
