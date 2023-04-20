@@ -2,7 +2,7 @@ let mongoose = require("mongoose");
 
 let connect = () =>{
     try{
-	// add your local Mongodb or Mongodb Atlas
+	// add your local Mongodb or Mongodb Atlas()
         let db = mongoose.connect("");
         console.log('connected succesfully');
     }catch{
