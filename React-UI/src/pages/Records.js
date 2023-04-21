@@ -13,7 +13,7 @@ import { FormContext } from "./context";
 // table
 import RecordsTable from "./RecordsTable";
 // fields
-import Fields from "./fields";
+import Fields from "./fields/index";
 
 // styles
 import './styles.css'
