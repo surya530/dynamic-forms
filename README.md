@@ -12,7 +12,7 @@ This project is use to create dynamic or custom forms.
 
  - Nodejs with express framework.
  - Mongodb or Mongo Atlas.
- - UI(reactjs library).
+ - UI(Reactjs library).
 
 ## React dashboard template
 
@@ -30,7 +30,7 @@ or
     
  Do same for api directory
 
-## run project
+## Run project
 
 Go to React-UI and run
  
@@ -40,13 +40,13 @@ Go to React-UI and run
  
     $ npm start 
 
-## comming to db
+## Comming to db
 
 Here we are using mongodb as Database.You can use local 
 mongoDb [Install in your local pc](https://www.mongodb.com/docs/manual/installation/) 
 or 
 mongo atlas [Use Cloud](https://www.mongodb.com/cloud/atlas/lp/try4?utm_ad_campaign_id=415204524&adgroup=1207264237113792)
 
-## contact
+## Contact
 Gmail : tejaksurya@gmail.com
 Outlook : suryahk@hotmail.com
